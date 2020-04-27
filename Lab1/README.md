@@ -1,2 +1,3 @@
-Lab1
-https://github.com/AmbidexterT
+https://github.com/AmbidexterT/WebLab/tree/master/Lab1
+
+LAB1
