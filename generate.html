@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+  <html lang="Engish">
+     <head>
+      <meta charset="UTF-8">
+       <title>Задание</title>
+     </head>
+        <body>
+            <ul id="ul"></ul>
+                 <input type="text" class="min"><br>
+<input type="text" class="max"><br>
+<button class="button" onclick="myRand()">Сгенерировать</button>
+
+<div id="result"></div>
+                    <script>function myRand() {
+    var min = parseInt(document.getElementsByClassName('min')[0].value);
+    var max = parseInt(document.getElementsByClassName('max')[0].value);
+
+    var result = Math.floor(Math.random() * (max - min + 1)) + min;
+
+    document.getElementById('result').innerHTML = result;
+}
+            </script>
+        </body>
+</html>
